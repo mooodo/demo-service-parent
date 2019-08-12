@@ -13,12 +13,12 @@
   <dependencies>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-feign</artifactId>
+      <artifactId>spring-cloud-starter-openfeign</artifactId>
     </dependency>
     <!-- 断路器 hystrix -->
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-hystrix</artifactId>
+      <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
     </dependency>
 		
     <!-- 断路器 hystrix 仪表盘 -->
@@ -28,7 +28,7 @@
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+      <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
     </dependency>
     
     <!-- config -->
@@ -37,10 +37,10 @@
       <artifactId>spring-cloud-starter-config</artifactId>
     </dependency>
     
-    <!-- zipkin -->
+    <!-- zipkin 
     <dependency>
       <groupId>org.springframework.cloud</groupId>
-      <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
+	  <artifactId>spring-cloud-sleuth-zipkin-stream</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -49,7 +49,7 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-sleuth</artifactId>
-    </dependency>
+    </dependency>-->
     
     <!-- enabled jsp -->
     <dependency>
